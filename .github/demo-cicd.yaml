@@ -1,11 +1,13 @@
-name: Demo CI/CD
+name: Demo CI/CD Self Hosted
 
 # Sebagai kondisi, WorkFlow akan dijalankan ketika apa?
 # Pada kasus disini, setiap kita melakukan push
 # ke branch main. Maka WorkFlow akan dijalankan
+
 on:
   push:
     branches: ["main"]
+
 
 # Untuk mengelompokan tugas-tugasnya ngapain aja
 jobs:
